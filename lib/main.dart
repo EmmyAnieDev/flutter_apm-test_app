@@ -6,9 +6,8 @@ import 'home_page.dart';
 void main() {
   // Initialize the FlutterTelexErrorMonitor Package
   FlutterTelexErrorMonitor.init(
-      appName: 'Telex Soccer App',
-      telexChannelWebhookUrl:
-          'https://ping.telex.im/v1/webhooks/0195328d-9c40-7c84-8acd-0bc6ccb3f9da');
+      appName: 'YOUR_APP_NAME', // optional
+      telexChannelWebhookUrl: 'YOUR_CHANNEL_WEBHOOK_URL');
   runApp(const MyApp());
 }
 
